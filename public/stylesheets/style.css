@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  font-family: "Verdana", sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ECEFF1;
+}
+
+div {
+  align-self: center;
+}

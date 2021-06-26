@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  if api == false
+    h1= error.status
+    br
+    h2= message
+    //pre #{error.stack}
+  else
+    h1 400
+    br
+    h2 Bad Request
