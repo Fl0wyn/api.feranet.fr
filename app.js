@@ -11,7 +11,6 @@ var indexRouter = require('./routes/index');
 var ipRouter = require('./routes/ip');
 var scanportRouter = require('./routes/scanport');
 var whoisRouter = require('./routes/whois');
-var speedtestRouter = require('./routes/speed');
 
 var app = express();
 
@@ -33,7 +32,6 @@ app.use('/',
   ipRouter,
   scanportRouter,
   whoisRouter,
-  speedtestRouter,
 );
 
 app.use(function (req, res, next) {
