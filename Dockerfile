@@ -6,7 +6,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN npm install --global speed-test
 RUN npm install
 
 EXPOSE 3000
