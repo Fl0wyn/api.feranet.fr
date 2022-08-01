@@ -1,7 +1,7 @@
 {
   "name": "api.feranet.fr",
   "version": "2.0.0",
-  "description": "API for https://tools.feranet.fr",
+  "description": "API for https://feranet.fr",
   "main": "app.js",
   "scripts": {
     "dev": "DEBUG=api.feranet.fr:* node ./bin/www",
@@ -18,20 +18,19 @@
   },
   "homepage": "https://github.com/debmus/api.feranet.fr#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.27.2",
     "compression": "^1.7.4",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "debug": "^4.3.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-rate-limit": "^5.2.6",
-    "http-errors": "^1.8.0",
-    "ip-regex": "^4.3.0",
-    "is-valid-domain": "^0.0.20",
-    "isopen": "^1.3.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.1",
+    "http-errors": "^2.0.0",
+    "ip-regex": "^5.0.0",
+    "is-valid-domain": "^0.1.6",
     "morgan": "^1.10.0",
     "pug": "^3.0.2",
-    "whois": "^2.13.5"
+    "whois": "^2.13.9"
   }
 }
