@@ -4,8 +4,8 @@
   "description": "API for https://feranet.fr",
   "main": "app.js",
   "scripts": {
-    "dev": "DEBUG=api.feranet.fr:* node ./bin/www",
-    "start": "node ./bin/www"
+    "dev": "NODE_ENV=development DEBUG=api.feranet.fr:* node ./bin/www",
+    "start": "NODE_ENV=production node ./bin/www"
   },
   "repository": {
     "type": "git",
