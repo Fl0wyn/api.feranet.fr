@@ -1,2 +1,2 @@
 ## api.feranet.fr
-API for https://tools.feranet.fr
+API for https://feranet.fr

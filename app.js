@@ -9,7 +9,6 @@ var cors = require('cors');
 var dnsRouter = require('./routes/dns');
 var indexRouter = require('./routes/index');
 var ipRouter = require('./routes/ip');
-var scanportRouter = require('./routes/scanport');
 var whoisRouter = require('./routes/whois');
 
 var app = express();
@@ -30,7 +29,6 @@ app.use('/',
   dnsRouter,
   indexRouter,
   ipRouter,
-  scanportRouter,
   whoisRouter,
 );
 
