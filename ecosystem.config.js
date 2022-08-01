@@ -5,6 +5,7 @@ module.exports = {
         {
             name: 'api-feranet',
             port: process.env.APP_PORT,
+            script: 'node ./bin/www',
             args: 'start'
         }
     ],
