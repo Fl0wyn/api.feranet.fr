@@ -15,7 +15,7 @@ module.exports = {
             "path": process.env.SSH_PATH,
             "ref": "origin/master",
             "repo": "https://github.com/Fl0wyn/api.feranet.fr.git",
-            "post-deploy": "npm install && pm2 startOrRestart ecosystem.config.js --env production"
+            "post-deploy": "npm install && pm2 startOrRestart ecosystem.config.js --update-env"
         }
     }
 }
