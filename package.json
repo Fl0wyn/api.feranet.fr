@@ -1,6 +1,6 @@
 {
   "name": "api.feranet.fr",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "API for https://feranet.fr",
   "main": "app.js",
   "scripts": {

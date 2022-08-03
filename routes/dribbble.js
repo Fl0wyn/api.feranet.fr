@@ -10,16 +10,14 @@ const limiter = rateLimit({
   max: process.env.MAX,
 });
 
-router.get('/ip', limiter, (req, res) => {
-
-  var ip = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+router.get('/dribbble', limiter, (req, res) => {
 
   (async () => {
     try {
       let getRequest = await axios(
         {
           method: 'get',
-          url: 'https://ipinfo.io/' + ip + '?token=' + process.env.IPINFO_KEY,
+          url: 'https://api.dribbble.com/v2/user/shots?access_token=' + process.env.DRIBBBLE_TOCKEN,
         }
       );
       let resp = await getRequest.data;

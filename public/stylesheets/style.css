@@ -8,7 +8,7 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #212121;
+  background-color: #263238;
   font-family: 'Verdana', sans-serif;
   display: flex;
   justify-content: center;
@@ -18,4 +18,14 @@ body {
 
 div {
   align-self: center;
+}
+
+a {
+  color: #eceff1;
+}
+
+ul {
+  margin: 20px 0 15px 0;
+  text-align: left;
+  list-style-type: none;
 }

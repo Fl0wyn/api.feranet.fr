@@ -9,8 +9,8 @@ require('dotenv').config()
 
 const rateLimit = require("express-rate-limit");
 const limiter = rateLimit({
-  windowMs: process.env.LOW_WINDOWMS,
-  max: process.env.LOW_MAX,
+  windowMs: process.env.WINDOWSMS * 60 * 1000,
+  max: process.env.MAX,
 });
 
 router.get('/whois/:ip', limiter, (req, res) => {
