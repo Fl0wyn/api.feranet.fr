@@ -1,5 +1,13 @@
-## api.feranet.fr
+# api.feranet.fr
 
-API pour https://feranet.fr
+## Setup
 
-v3.0
+```bash
+yarn install
+```
+
+## Development
+
+```bash
+yarn dev
+```
