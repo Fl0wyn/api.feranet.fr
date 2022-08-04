@@ -11,6 +11,7 @@ var indexRouter = require('./routes/index');
 var ipRouter = require('./routes/ip');
 var whoisRouter = require('./routes/whois');
 var dribbbleRouter = require('./routes/dribbble');
+var githubRouter = require('./routes/github');
 
 var app = express();
 
@@ -31,7 +32,8 @@ app.use('/',
   indexRouter,
   ipRouter,
   whoisRouter,
-  dribbbleRouter
+  dribbbleRouter,
+  githubRouter
 );
 
 app.use(function (req, res, next) {

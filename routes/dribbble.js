@@ -17,7 +17,7 @@ router.get('/dribbble', limiter, (req, res) => {
       let getRequest = await axios(
         {
           method: 'get',
-          url: 'https://api.dribbble.com/v2/user/shots?access_token=' + process.env.DRIBBBLE_TOCKEN,
+          url: 'https://api.dribbble.com/v2/user/shots?access_token=' + process.env.DRIBBBLE_TOKEN,
         }
       );
       let resp = await getRequest.data;
