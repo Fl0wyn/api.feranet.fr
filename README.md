@@ -1,4 +1,5 @@
 ## api.feranet.fr
-API for https://feranet.fr
+
+API pour https://feranet.fr
 
 v3.0
